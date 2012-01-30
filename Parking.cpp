@@ -32,5 +32,5 @@ void Parking::sacar_coche() {
 }
 
 void Parking::plazas_libres() {
-  return plazas_libres;
+  cout << plazas_libres << endl;
 }

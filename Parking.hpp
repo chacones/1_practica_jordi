@@ -4,14 +4,16 @@
 using namespace std;
 
 class Parking {
+private:
   list<Coche> aparcados;
   int plazas_libres;
 
+public:
   Parking();
   ~Parking();
 
   void read_parking();
   void meter_coche();
   void sacar_coche();
-  void plazas_libres();
+  void print_plazas_libres();
 };

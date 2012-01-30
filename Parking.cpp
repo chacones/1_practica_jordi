@@ -31,6 +31,6 @@ void Parking::sacar_coche() {
   plazas_libres++;
 }
 
-void Parking::plazas_libres() {
+void Parking::print_plazas_libres() {
   cout << plazas_libres << endl;
 }

@@ -7,6 +7,7 @@ class Coche {
   Coche();
   ~Coche();
 
+  void read_coche();
   int get_matricula();
-  void set_matricula();
+  void set_matricula(int m);
 };

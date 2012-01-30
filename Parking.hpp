@@ -4,12 +4,13 @@
 using namespace std;
 
 class Parking {
-  list<Coche> coches_aparcados;
+  list<Coche> aparcados;
   int plazas_libres;
 
   Parking();
   ~Parking();
 
+  void read_parking();
   void meter_coche();
   void sacar_coche();
   void plazas_libres();

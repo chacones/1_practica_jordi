@@ -1,0 +1,32 @@
+Se pide implementar un sencillo sistema informatico para manejar un parking de coches. El sistema tendrá tres opciones disponibles:
+1 meter_coche
+2 sacar_coche
+3 plazas_libres
+-1 finalizar_programa
+
+En la acción meter_coche, se incluye como entrada la matrícula del coche a aparcar.
+En la acción sacar_coche, se incluye como entrada la matrícula del coche a sacar. Se garantiza que existirá en ese momento un coche con dicha matrícula.
+En la acción plazas_libres, se deberá imprimir por consola el número de plazas libres en ese momento.
+En la acción finalizar_programa, el programa deberá acabar
+
+La matrícula de un coche consta de 4 dígitos.
+Al principio del programa, se deberá leer por la entrada el número de plazas de las que consta el parking.
+
+Ejemplo de entrada:
+10      // el parking tiene 10 plazas
+3       // imprimir plazas libres
+1 1234  // meter coche con matricula 1234
+1 2345  // meter coche con matricula 2345
+3       // imprimir plazas libres
+2 1234  // sacar coche con matricula 1234
+3       // imprimir plazas libres
+1 5432  // meter coche 5432
+2 5432  // sacar coche 5432
+3       // imprimir plazas libres
+-1      // finalizar programa
+
+Ejemplo de salida dada la entrada anterior:
+10
+8
+9
+9

@@ -15,4 +15,4 @@ Coche.o: Coche.cpp
 	g++ -c Coche.cpp
 
 clean:
-	rm red_ferroviaria *~ *.o
+	rm parking *~ *.o

@@ -26,9 +26,9 @@ void Parking::sacar_coche() {
     if(it->get_matricula() == matricula_a_sacar) {
       aparcados.erase(it);
       found = true;
+      plazas_libres++;
     }
   }
-  plazas_libres++;
 }
 
 void Parking::print_plazas_libres() {

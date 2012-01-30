@@ -18,7 +18,7 @@ void Parking::meter_coche() {
 }
 
 void Parking::sacar_coche() {
-  boolean found = false;
+  bool found = false;
   int matricula_a_sacar;
   cin >> matricula_a_sacar;
   for(list<Coche>::iterator it = aparcados.begin();
